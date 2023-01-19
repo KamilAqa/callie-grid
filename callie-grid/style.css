@@ -70,11 +70,19 @@ margin-right: 17px;
 }
 
 /* IMAGE */
-
+.box3 {
+    position: relative;
+    margin-bottom: 20px;
+    width: 500px;
+    height: 500px;
+}
 
 .image {
+    position: absolute;
+    top: 20px;
+    left: 0;
     display: grid;
-    grid-template-columns: 800px 270px;
+    grid-template-columns: 774px 1fr;
 }
 
 .image1 {
